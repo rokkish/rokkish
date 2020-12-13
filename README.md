@@ -17,5 +17,4 @@ Here are some ideas to get you started:
 
 [![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=hirogithu)](https://github.com/hirogithu/github-readme-stats)
 
-
-[![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=hirogithu)](https://github.com/hirogithu/github-readme-stats)
+<img src="https://github.com/hirogithu/hirogithu/blob/main/images/stat.svg" alt="Alternative Text"/>
