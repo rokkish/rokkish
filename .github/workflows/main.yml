@@ -1,0 +1,22 @@
+# copy from https://github.com/avinal/Profile-Readme-WakaTime
+
+name: WakaTime status update
+
+# Controls when the action will run. 
+on:
+  schedule:
+    # Runs at 12 am '0 0 * * *' UTC
+    - cron: '1 0 * * *'
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  update-readme:
+    name: Update the Wakatime Stat
+    runs-on: ubuntu-latest
+    steps:
+      - uses: hirogithu/Profile-Readme-WakaTime@main
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          GITHUB_TOKEN: ${{ github.token }}
+          BRANCH: "main"
+          COMMIT_MSG: "AUtomated Coding Activity Update :alien:"
