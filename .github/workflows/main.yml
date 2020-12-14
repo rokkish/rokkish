@@ -14,7 +14,7 @@ jobs:
     name: Update the Wakatime Stat
     runs-on: ubuntu-latest
     steps:
-      - uses: hirogithu/Profile-Readme-WakaTime@main
+      - uses: hirogithu/hirogithu
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           GITHUB_TOKEN: ${{ github.token }}
